@@ -10,7 +10,7 @@ const app = express();
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, '/public')));
+app.use('/:id', express.static(path.join(__dirname, '/public')));
 app.use(cors());
 
 app.get('/:id', (req, res) => {

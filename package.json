@@ -1,29 +1,28 @@
 {
-  "name": "v-campaign-pledge-proxy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hr-team-jacob/V-Campaign-Pledge-Proxy.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hr-team-jacob/V-Campaign-Pledge-Proxy/issues"
-  },
-  "homepage": "https://github.com/hr-team-jacob/V-Campaign-Pledge-Proxy#readme",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.18.11",
-    "path": "^0.12.7"
-  }
+	"name": "v-campaign-pledge-proxy",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zackzeyu/punchstarter-proxy-zackzeyu.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zackzeyu/punchstarter-proxy-zackzeyu/issues"
+	},
+	"homepage": "https://github.com/zackzeyu/punchstarter-proxy-zackzeyu#readme",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"morgan": "^1.9.1",
+		"nodemon": "^1.18.11",
+		"path": "^0.12.7"
+	}
 }
